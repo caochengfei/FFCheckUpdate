@@ -1,0 +1,2 @@
+# FFCheckUpdate
+check appstore update
