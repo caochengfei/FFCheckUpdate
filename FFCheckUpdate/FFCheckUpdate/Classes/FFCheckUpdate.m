@@ -101,8 +101,8 @@ static FFCheckUpdate *checkManager;
                 NSArray *results = responseDic[@"results"];
                 NSDictionary *resultsDic = [results firstObject];
                 NSString *trackId = resultsDic[@"trackId"];
-                if (_compeleteHandler) {
-                    _compeleteHandler(resultsDic[@"version"]);
+                if (self.compeleteHandler) {
+                    self.compeleteHandler(resultsDic[@"version"]);
                 }
                 [userDefaults setObject:resultsDic[@"version"] forKey:APP_NEW_VERSION];
                 [userDefaults setObject:resultsDic[@"releaseNotes"] forKey:APP_RELEASE_NOTES];
