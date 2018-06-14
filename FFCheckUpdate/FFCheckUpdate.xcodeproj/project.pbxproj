@@ -61,12 +61,11 @@
 		95DB60A920D11E650084FB17 /* FFCheckUpdate */ = {
 			isa = PBXGroup;
 			children = (
+				95DB60C320D1F6460084FB17 /* Classes */,
 				95DB60AA20D11E650084FB17 /* AppDelegate.h */,
 				95DB60AB20D11E650084FB17 /* AppDelegate.m */,
 				95DB60AD20D11E650084FB17 /* ViewController.h */,
 				95DB60AE20D11E650084FB17 /* ViewController.m */,
-				95DB60C020D11E850084FB17 /* FFCheckUpdate.h */,
-				95DB60C120D11E850084FB17 /* FFCheckUpdate.m */,
 				95DB60B020D11E650084FB17 /* Main.storyboard */,
 				95DB60B320D11E660084FB17 /* Assets.xcassets */,
 				95DB60B520D11E660084FB17 /* LaunchScreen.storyboard */,
@@ -74,6 +73,15 @@
 				95DB60B920D11E660084FB17 /* main.m */,
 			);
 			path = FFCheckUpdate;
+			sourceTree = "<group>";
+		};
+		95DB60C320D1F6460084FB17 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95DB60C020D11E850084FB17 /* FFCheckUpdate.h */,
+				95DB60C120D11E850084FB17 /* FFCheckUpdate.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
